@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.txt text
+*.py text
+git add --renormalize .
+git commit -m "Normalize all the line endings"
